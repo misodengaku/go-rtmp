@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yutopp/go-rtmp/message"
+	"github.com/misodengaku/go-rtmp/message"
 )
 
 func TestHandlerCallback(t *testing.T) {
