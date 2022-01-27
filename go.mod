@@ -11,7 +11,6 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/yutopp/go-amf0 v0.0.0-20180803120851-48851794bb1f
 	github.com/yutopp/go-flv v0.2.0
-	github.com/misodengaku/go-rtmp v0.0.1
 )
 
 require (
