@@ -232,7 +232,8 @@ func (dec *Decoder) decodeDataMessage(msg *Message, f func(r io.Reader) (AMFDeco
 
 	var name string
 	if err := d.Decode(&name); err != nil {
-		return errors.Wrap(err, "Failed to decode name")
+		// return errors.Wrap(err, "Failed to decode name")
+		return nil
 	}
 
 	*msg = &DataMessage{
